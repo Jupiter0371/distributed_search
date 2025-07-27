@@ -1,0 +1,163 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: inherit;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: inherit;
+    width: inherit;
+}
+
+.searchSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 256px;
+}
+.searchHistorySection {
+    flex: 1;
+    margin: 32px 64px;
+    padding: 16px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+}
+
+.searchHistorySection h4 {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.searchSection h1 {
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.searchBar {
+    min-width: 700px;
+}
+
+#searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.teamInfo {
+    margin-bottom: 32px;
+}
+
+.searchPage {
+    display: flex;
+    flex-direction: column;
+
+    height: inherit;
+    width: inherit;
+}
+
+.searchHeader {
+    display: flex;
+    align-items: flex-end;
+    gap: 16px;
+    padding: 32px 64px 32px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchHeader h3 {
+    font-weight: bold;
+}
+
+.searchHistAndRes {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    width: inherit;
+}
+
+.searchResultSection {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: inherit;
+    height: inherit;
+}
+
+.searchContent {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px 64px 16px;
+    height: inherit;
+}
+
+#resultsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.card-text {
+    max-width: 60%;
+}
+
+.spinnerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.paginationWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 48px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+nav .dropdown button {
+    padding: 10px 16px;
+}
+
+nav .pagination {
+    margin-bottom: 0;
+}
+
+nav .page-link {
+    color: black;
+    padding: 10px 16px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
